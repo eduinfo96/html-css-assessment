@@ -1,0 +1,94 @@
+body{
+  background-image: url("/img/main-bg.jpeg");
+  background-size: cover;
+}
+
+.nav-bar{
+  color: white;
+  font-size: 24px;
+  font-family: Montserrat;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 75px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 712px)  {
+  .nav-bar{
+    display: none;
+  }
+}
+
+
+.mini-bar{
+  display: flex;
+  justify-content: space-between;;
+  height: 75px;
+  align-items: center;
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+.material-icons.hb{
+  color: grey;
+}
+
+.twitter{
+
+}
+.social-network{
+  width: 100px;
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+
+
+
+
+@media only screen and (min-width: 713px){
+  .mini-bar{
+    display: none;
+  }
+}
+
+
+
+.main{
+  width: 100%;
+  color: white;
+  font-family: Montserrat;
+  height: 468px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  width: 289.19px;
+  height: 102px;
+  line-height: 1;
+  text-align: center;
+}
+
+.who{
+  font-size: 78px;
+}
+
+.what{
+  font-size: 24px;
+}
+
+.material-icons.downb{
+  color: grey;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
